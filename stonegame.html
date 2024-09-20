@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinaya Vettri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="align-items: center;">Start your game here!</h1>
+    
+            <button onclick="playgame('stone')"><img src="rock-emoji.png" class="icon"></button>
+            <button onclick="playgame('paper')"><img src="paper-emoji.png" class="icon"></button>
+            <button onclick="playgame('scissors')"><img src="scissors-emoji.png" class="icon" > </button>
+
+    <p class="winner"></p>
+    <p class="js-winner"></p>
+    <p>High Score: <span id="high-score">0</span></p>
+    <div class="reset">
+        <button onclick="reset()">Reset Scores</button>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
